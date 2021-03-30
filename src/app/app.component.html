@@ -1,12 +1,11 @@
-
+<html>
+<head>
   <h1>Angular Calculator</h1>
 </head>
 <body>
-  <div>
-    <input [(ngModel)]="num" type="number">  
-    <input [(ngModel)]="ber" type="number">  
-    <button (click)= "add()" class = "btn-outline-info">Add</button>  
-    <label>     </label>
-  </div>
+    <input [(ngModel)]="num" type="number"> |
+    <input [(ngModel)]="ber" type="number"> |  
+    <button (click)= "add()">Add</button> |  
+    <label>Answer: {{ans}}</label>
 </body>
 </html>

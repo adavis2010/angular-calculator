@@ -12,7 +12,7 @@ export class AppComponent {
     ber: number = 0;
     ans: number = 0;
   
-    add(): void {
-      this.ans = this.num + this.ber;
+    add(): void { //added the add method with no parameters
+      this.ans = this.num + this.ber; //this.(references property of the class)
     }
 }
